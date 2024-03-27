@@ -3,18 +3,36 @@ html {
     padding: 0;
   }
 
+.container{
+    max-width: 780px;
+	margin: 0 auto;
+	background: url(../image/pinkguy-head.png) left bottom repeat-x, url(../image/pinkguy-head.png) left top repeat-x;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+
+}
+
+
   body {
     max-width: 800px;
     margin: 0 auto;
     font-size: 18px;
+    font-family: "kiwi maru",  sans-serif;
+    background-color: rgb(168, 94, 94);
+    color: rgb(66, 7, 7);
   }
 
   header {
     width: 780px;
     padding-left: 10px;
     padding-right: 10px;
-    background: rgb(112, 10, 10) ;
     color: white;
+    font-family: "kiwi maru",  sans-serif;
+    text-shadow: 2px 2px 4px #000000;  
+    background:url(../image/jojibanner-redeco.png) right bottom no-repeat ,rgb(112, 10, 10);  
   }
 
   .nav{
@@ -50,7 +68,6 @@ article{
     padding-top: 20px;
     padding-left: 20px;
     margin: 0px;
-    border-left: 2px dotted #ffffff;
 }
 
 aside{
@@ -60,6 +77,15 @@ aside{
     padding-left: 20px;
     margin: 0px;
     border-left: 2px solid rgb(112, 10, 10);
+}
+aside ul{  
+      list-style: none;
+}
+
+aside li::before {
+    content: "\2665"; /* Insert content that looks like bullets */
+    padding-right: 5px;
+    color: rgb(112,10,10); /* Or a color you prefer */
     
 }
 
@@ -82,5 +108,7 @@ footer{
     padding-top: 20px;
     background-color: rgb(112, 10, 10) ;
     color: white;
+    font-family: "Noto Sans TC", "Cairo", sans-serif;
+    text-shadow: 2px 2px 4px #000000;        
 }
 
