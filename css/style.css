@@ -7,8 +7,8 @@ html {
     max-width: 780px;
 	margin: 0 auto;
 	background: url(../image/pinkguy-head.png) left bottom repeat-x, url(../image/pinkguy-head.png) left top repeat-x;
-	padding-top: 10px;
-	padding-bottom: 30px;
+	padding-top: 5px;
+	padding-bottom: 25px;
 	padding-left: 20px;
 	padding-right: 20px;
 
@@ -17,7 +17,7 @@ html {
 
 
   body {
-    max-width: 800px;
+    max-width: 780px;
     margin: 0 auto;
     font-size: 18px;
     font-family: "kiwi maru",  sans-serif;
@@ -80,6 +80,7 @@ aside{
 }
 aside ul{  
       list-style: none;
+
 }
 
 aside li::before {
@@ -103,12 +104,17 @@ aside ul li a:hover{
 
 
 footer{
-    width: 800px;
+    width: 780px;
     height: 40px;
     padding-top: 20px;
     background-color: rgb(112, 10, 10) ;
     color: white;
-    font-family: "Noto Sans TC", "Cairo", sans-serif;
-    text-shadow: 2px 2px 4px #000000;        
+    font-family: "kiwi maru",  sans-serif;
+    text-shadow: 2px 2px 4px #000000;   
 }
 
+.fixedbutton {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
