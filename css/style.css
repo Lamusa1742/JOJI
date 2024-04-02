@@ -56,12 +56,21 @@ nav ul li a:hover{
     background-color: #000000;
     /* text-decoration: underline; */
     color: #fff;
+    transition: 0.7s;
 }
 
 .content-area{
     display:flex;
 }
+article h2::after {
+    content: "\266A"; /* Insert content that looks like bullets */
+}
+article h2 {
+    border-style: hidden hidden hidden solid;
+    border-width: 25px;
+    border-radius: 15px
 
+}
 article{
     flex:2;
     min-height: 500px;
@@ -100,6 +109,7 @@ aside ul li a:hover{
     background-color: #000000;
     /* text-decoration: underline; */
     color: #fff;
+    transition: 0.7s;
 }
 
 
@@ -118,3 +128,4 @@ footer{
     bottom: 0;
     right: 0;
 }
+
